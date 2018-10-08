@@ -60,12 +60,6 @@
   <ItemGroup>
     <None Include="Packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NLog.Targets.Sentry\NLog.Targets.Sentry.csproj">
-      <Project>{c4da3206-227c-4c65-86bb-0b91cb01b50b}</Project>
-      <Name>NLog.Targets.Sentry</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
